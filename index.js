@@ -18,10 +18,10 @@ console.log(item); let specialInstr = document.getElementById("instructions").va
   console.log(specialInstr);
   
   //email it to me (fake emails)
-  const to = "student.ea@youngsvilleacademy.org";
+  const to = "notreal@email.com";
   /*const bcc = can't think of anything else rn*/
   const subject = encodeURIComponent("I would like to purchase " + item);
-  const body = encodeURIComponent("Hello AW, this is a request to buy " + item + ", my special instructions are " + specialInstr + " what method of payment do you prefer?");
+  const body = encodeURIComponent("Hello A.W., this is a request to buy " + item + ", my special instructions are " + specialInstr + " what method of payment do you prefer?");
   let cleanBodyVal = decodeURIComponent(body);
   let cleanSubVal = decodeURIComponent(subject);
   
