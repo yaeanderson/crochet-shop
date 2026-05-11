@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&family=Rubik+Spray+Paint&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/knockout@3.5.1/build/output/knockout-latest.min.js"></script>
+    <img id="bg-img" src="https://c.pxhere.com/images/5e/a0/0f4e9fbd946b8e0ae99838ada951-1591914.jpg!d" width="100%" height="100%">
+    <div id="header">
+      <h1 id="title">A. W. Crochet Store</h1>
+      <p>Hello there, I'm Arron Writer. I make little crochet stuffed animals, if there are any request, there will be a submission at the bottom of the page.</p>
+    </div>
+    <hr>
+    <div id="store">
+      <figure>
+        <img class="img" src="https://d1kgixvf687els.cloudfront.net/images/amigurumi-pusheen-with-donut.jpeg">
+        <figcaption>Pusheen Cat Holding Doughnut</figcaption>
+      </figure>
+      <figure>
+        <img class="img" src="https://d1kgixvf687els.cloudfront.net/images/2025-09/thumb/360-amigurumi-256Squishy-Baby-Whale-no-sew-5736.png">
+        <figcaption>Tiny Baby Whale</figcaption>
+      </figure>
+      <figure>
+        <img class="img" src="https://d1kgixvf687els.cloudfront.net/images/2024-05/thumb/360-amigurumi-417No-Sew-Robert-the-Rubber-Duck-8845.png">
+        <figcaption>Rubber Duck</figcaption>
+      </figure>
+      <figure>
+        <img class="img" src="https://d1kgixvf687els.cloudfront.net/images/2025-04/thumb/360-amigurumi-427Pancake-Breakfast-Eggs-and-Bacon-Am-2748.jpeg">
+        <figcaption>Breakfast (Pancake, Eggs, Bacon)</figcaption>
+      </figure>
+    </div>
+    <div id ="spacer">
+    <div id="submissions">
+      <label for="crochet-type" id="crochet-label">Please choose the items you want to add to your cart:</label>
+      <select name="crochet-type" id="select-items-for-cart" multiple required size="1">
+        <div id="options">
+        <option value="">--Click to select your stuffie--</option>
+        <option class="in-cart" value="cat-holding-doughnut" id="cat-w-doughnut">Pusheen Cat Holding Doughnut</option>
+        <option class="in-cart" value="tiny-whale" id="tiny-whale">Tiny Baby Whale</option>
+        <option class="in-cart" value="duck" id="duck">Rubber Duck</option>
+        <option class="in-cart" value="breakfast" id="breakfast">Breakfast Meal</option>
+        </div>
+      </select>
+      <button id="add-to" onclick="emailSelf(event)">Add To Cart</button>
+      <br>
+      <label id="specilty-instructions" for="text">Specilty Instructions:</label>
+      <input type="text" id="instructions" placeholder="Enter Specifics Here (ex. Color, Request, etc.)..." width="200px"></input>
+    </div></div>
+  <br>
+    <div id="footer">
+      <div id="publish-info">
+        <p>Store Last Updated on May 7th, Items are subject to change.</p>
+        <p>*Please don't do anything dumb*</p>
+      </div>
+      <div id="vertical-bar"></div>
+      <div id="address">
+          <em>tel: none rn, theory website</em> 
+          <br>
+          <em>email: </em><a target="_blank" href="">enter email here (none rn)</a>
+        </address>
+      </div>
+    </div>
+  </body>
+</html>
